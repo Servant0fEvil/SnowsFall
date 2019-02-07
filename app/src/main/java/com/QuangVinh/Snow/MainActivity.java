@@ -84,10 +84,10 @@ class RenderedScreen extends android.view.View
 			sn.Animate(canvas, p);
 			if (sn.x > w || sn.x < 0 || sn.y > h)snows.removeElementAt(i);	
 		}
-		    //p.setTextSize(20);
-			//p.setTextAlign(Paint.Align.CENTER);
-			//p.setColor(0xffffffff);
-			//canvas.drawText("Tường Vy Lê",getWidth()/2,getHeight()/2,p);
+		//p.setTextSize(20);
+		//p.setTextAlign(Paint.Align.CENTER);
+		//p.setColor(0xffffffff);
+		//canvas.drawText("Tường Vy Lê",getWidth()/2,getHeight()/2,p);
 		//canvas.drawBitmap(bm, 50, 50, p);
 		super.onDraw(canvas);
 		invalidate();
